@@ -58,7 +58,13 @@ const Ecommerce = () => {
               {/* The Amount & percentage */}
               <p className="mt-3">
                 <span className="text-lg font-semibold">{item.amount}</span>
-                <span className={`text-sm text-${item.pcColor} ml-2`}>
+                <span
+                  className={`text-sm ${
+                    item.pcColor === "green-600"
+                      ? "text-green-600"
+                      : "text-red-600"
+                  } ml-2`}
+                >
                   {item.percentage}
                 </span>
               </p>

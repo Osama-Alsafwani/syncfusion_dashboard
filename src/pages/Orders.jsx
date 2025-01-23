@@ -31,6 +31,7 @@ const Orders = () => {
         allowPdfExport
         contextMenuItems={contextMenuItems}
         editSettings={editing}
+        width="auto"
       >
         <ColumnsDirective>
           {ordersGrid.map((item, index) => (

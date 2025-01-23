@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #
 
-[Demo](https://Osama-Alsafwani.github.io/syncfusion_dashboard/).
+[Live Demo](https://Osama-Alsafwani.github.io/syncfusion_dashboard/)
 
 ## Introduction
 
